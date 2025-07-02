@@ -1,3 +1,4 @@
+# Leetcode Problem: Best Time to Buy and Sell Stock 121
 def maxProfit(self, prices):
         min_price = float("inf")
         max_profit = 0
@@ -8,3 +9,4 @@ def maxProfit(self, prices):
             elif  i- min_price > max_profit:
                 max_profit = i - min_price
         return max_profit
+
