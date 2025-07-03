@@ -1,3 +1,5 @@
+# Leetcode Problem 268: Missing Number
+
 def missing_number(nums):
     n = len(nums)
     total = n*(n+1)//2
