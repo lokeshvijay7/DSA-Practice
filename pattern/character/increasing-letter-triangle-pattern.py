@@ -5,3 +5,11 @@ for i in range(num):
         print(chr(p), end="")
         p+=1
     print()    
+
+    # A      
+    # AB     
+    # ABC    
+    # ABCD   
+    # ABCDE  
+    # ABCDEF 
+    # ABCDEFG
